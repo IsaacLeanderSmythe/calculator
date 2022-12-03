@@ -90,9 +90,17 @@ button{
     margin: 2px;
     font-size: large;
     background-color: grey;
+    border-radius: 5px;
 }
 
 .operator-pad, .memory-pad,
 .numbers, .scientific-pad{
     background-color: whitesmoke;
+}
+
+.row-1, .row-2{
+    height: 50%;
+    width: 100%;
+    text-align: end;
+    font-size: xx-large;
 }
